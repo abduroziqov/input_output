@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            //Kvadratning tomoni a berilgan.
-            //P = 4 * a formula orqali perimetri aniqlansin.
+            //2.Kvadratning tomoni a berilgan.
+            //S = a * a formula orqali yuzasi aniqlansin.
             Console.Write("Kvadratning tomonini kiriting a = ");
             int a = Convert.ToInt32(Console.ReadLine());
 
-            int p = 4 * a;
-            Console.Write("Kvadratning peremetri " + p + " ga teng");
+            int S = a * a;
+            Console.Write("Kvadratning yuzasi " + S + " ga teng");
 
 
         }
